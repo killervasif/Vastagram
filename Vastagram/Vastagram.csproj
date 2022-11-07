@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="abstract-green-red-whatsapp-background.jpg" />
+    <None Remove="icons8-micro-48.png" />
+    <None Remove="icons8-send-32.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="abstract-green-red-whatsapp-background.jpg" />
+    <Resource Include="icons8-micro-48.png" />
+    <Resource Include="icons8-send-32.png" />
+  </ItemGroup>
+
+</Project>
